@@ -1,0 +1,39 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'style.css' %}"/>
+<div class="heading">
+     <div class="logo">
+         <h1 class="logoText" style="font family: Arial">NetМаркет</h1>
+          </div>
+    <div class="navigation">
+     <a class="navlink" href="/">Главная</a>
+     <a class="navlink" href="/products">Товары</a>
+     <a class="navlink" href="/discounts">Акции</a>
+    </div>
+</div>
+
+<div class = "productCard">
+     <img class="productImage" src="{{ product.image_url }}" >
+<div class="productInfo">
+    <h1>{{ product.name }}</h1>
+    <h3>{{ product.price }} руб.</h3>
+
+    <button>Купить</button>
+ </div>
+</div>
+
+<div class = "productDetails">
+<h1>Описание: </h1>
+    <p>{{ product.description }}</p>
+    <h1>Характеристика:</h1>
+
+    {% if product.brand %}
+    <div class="charRow">
+    <p>
+        Брэнд:
+    </p>
+    <p>
+        {{ product.brand }}
+    </p>
+    </div>
+    {% endif %}
+</div>
