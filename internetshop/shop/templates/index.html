@@ -13,13 +13,14 @@
 <div class="productList">
 
     {% for product in products %}
+
 <div class="product">
 
      <img class="productPreview" src="{{ product.image_url }}">
           <div>
-              <a href="/product/{{ product.id }}">
+ <a href="/product/{{ product.id }}">
      <h2>{{ product.name }}</h2>
-              </a>
+</a>
      <p>{{ product.description }}</p>
           </div>
     <div class="priceSection">
@@ -27,6 +28,7 @@
      <button>Купить</button>
     </div>
            </div>
+
  {% endfor %}
 </div>
 

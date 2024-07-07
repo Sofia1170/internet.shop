@@ -26,14 +26,38 @@
     <p>{{ product.description }}</p>
     <h1>Характеристика:</h1>
 
-    {% if product.brand %}
+    {% if product.brandMark %}
     <div class="charRow">
     <p>
         Брэнд:
     </p>
     <p>
-        {{ product.brand }}
+        {{ product.brandMark }}
     </p>
     </div>
     {% endif %}
+
+    {% if product.color %}
+    <div class="charRow">
+    <p>
+        Цвет:
+    </p>
+    <p>
+        {{ product.color }}
+    </p>
+    </div>
+    {% endif %}
+
+    <h1>Отзывы:</h1>
+
+    <div class="reviews">
+        <div class="review">
+          <div class="reviewHeader">
+              <h2>Людмила</h2>
+              <h2 class="greenText">Положительная</h2>
+          </div>
+            <p>Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за собой процесс внедрения и модернизации новых предложений. Идейные соображения высшего порядка, а также рамки и место обучения кадров в значительной степени обуславливает создание направлений прогрессивного развития.</p>
+        </div>
+    </div>
 </div>
+

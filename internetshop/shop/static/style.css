@@ -107,3 +107,18 @@ a {
    flex-direction: row;
    justify-content: space-between;
 }
+.charRow * {
+    margin: 5px;
+}
+
+.reviewHeader {
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
+.reviewHeader * {
+    margin: 0;
+}
+.greenText {
+     color: #32CD32;
+}
