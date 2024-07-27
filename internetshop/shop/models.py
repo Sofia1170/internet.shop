@@ -7,7 +7,7 @@ class Product(models.Model):
     price = models.IntegerField()
     image_url = models.CharField(max_length=256)
     brandMark = models.CharField(max_length=128, null=True, blank=True)
-    color = models.CharField(max_length=128, null=True, blank=True)
+    coloring = models.CharField(max_length=128, null=True, blank=True)
 
 
 
