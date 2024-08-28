@@ -18,14 +18,16 @@
 
      <img class="productPreview" src="{{ product.image_url }}">
           <div>
- <a href="/product/{{ product.id }}">
+
      <h2>{{ product.name }}</h2>
-</a>
+
      <p>{{ product.description }}</p>
           </div>
     <div class="priceSection">
         <h3>{{ product.price }} руб.</h3>
+        <a href="/product/{{ product.id }}">
      <button>Купить</button>
+        </a>
     </div>
            </div>
 

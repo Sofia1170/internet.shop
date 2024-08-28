@@ -85,7 +85,7 @@ button:hover{
 }
 
 .productDetails {
-    width: 50%;
+    width: 70%;
    margin-left: auto;
    margin-right: auto;
 }
@@ -122,3 +122,41 @@ a {
 .greenText {
      color: #32CD32;
 }
+.redText {
+     color: #FF0000;
+}
+.createReviewForm{
+    display: flex;
+    flex-direction: column;
+}
+.createReviewForm * {
+   margin-top: 7px;
+   font-size: 17px;
+}
+.inputElement {
+     padding: 5px;
+     border-radius: 7px;
+     border: 2px  solid  #a6a6a6;
+}
+.payment{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+
+}
+.payButton {
+     height: 60px;
+     min-width: 600px;
+
+}
+.payInfo * {
+    margin-top: 3px;
+}
+ .vspace {
+    height: 20px;
+ }
+ .paymentDetailsForm {
+      display: flex;
+      flex-direction: column;
+ }
