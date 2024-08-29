@@ -20,6 +20,7 @@
         padding: 10px;
         background-color: white;
         width: 60%;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 12px -4px;
      }
      .heading {
           display: flex;
@@ -159,4 +160,33 @@ a {
  .paymentDetailsForm {
       display: flex;
       flex-direction: column;
+ }
+
+ .discountList {
+         display: flex;
+         flex-direction: column;
+         margin-top: 10px;
+         align-items: center;
+
+ }
+
+ .discountPreview {
+      min-width: 450px;
+      max-height: 450px;
+
+ }
+ .discount {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: white;
+        width: 450px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 12px -4px;
+
+ }
+
+ .discountButton {
+    width: 450px;
  }

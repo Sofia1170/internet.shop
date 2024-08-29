@@ -6,7 +6,7 @@
           </div>
     <div class="navigation">
      <a class="navlink" href="/">Главная</a>
-     <a class="navlink" href="/products">Товары</a>
+     <a class="navlink" href="/products">Новинки</a>
      <a class="navlink" href="/discounts">Акции</a>
     </div>
 </div>
@@ -18,8 +18,9 @@
 
      <img class="productPreview" src="{{ product.image_url }}">
           <div>
-
+ <a href="/product/{{ product.id }}">
      <h2>{{ product.name }}</h2>
+ </a>
 
      <p>{{ product.description }}</p>
           </div>

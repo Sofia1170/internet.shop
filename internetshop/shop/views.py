@@ -53,3 +53,6 @@ def payment(request, id):
 
 def payment_success(request):
     return render(request, 'success.html')
+
+def discounts(request):
+    return render(request, 'discounts.html')
