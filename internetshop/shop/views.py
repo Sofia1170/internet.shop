@@ -56,3 +56,6 @@ def payment_success(request):
 
 def discounts(request):
     return render(request, 'discounts.html')
+
+def novelty(request):
+    return render(request, 'novelty.html')
