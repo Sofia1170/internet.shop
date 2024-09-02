@@ -6,7 +6,7 @@ from django.shortcuts import render, redirect
 from .models import  Product
 from .models import  Review
 
-from.config import API_TOKEN, CHAT_ID
+from .config import API_TOKEN, CHAT_ID
 
 bot = telebot.TeleBot(API_TOKEN)
 
